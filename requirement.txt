@@ -1,0 +1,7 @@
+requests
+numpy
+python-dotenv
+sentence-transformers
+torch
+numpy
+faiss-cpu
