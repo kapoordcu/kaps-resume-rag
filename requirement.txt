@@ -5,3 +5,9 @@ sentence-transformers
 torch
 numpy
 faiss-cpu
+transformers 
+accelerate 
+safetensors 
+sentencepiece 
+protobuf
+google-genai

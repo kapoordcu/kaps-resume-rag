@@ -1,10 +1,11 @@
 Professional Summary
-I’m a Staff Software Engineer with 14+ years of experience building production Java microservices, REST APIs, Kafka-based event-driven systems, and AWS/OCI cloud platforms across Oracle, Medallia, N26, and Tipico . I bring hands-on ownership from architecture through production, with a strong focus on reliability, performance, automated testing, and mentoring engineers. 
+My name is Gaurav Kapoor, I’m a Staff Software Engineer with 14+ years of experience building production Java microservices, REST APIs, Kafka-based event-driven systems, and AWS/OCI cloud platforms across Oracle, Medallia, N26, and Tipico . I bring hands-on ownership from architecture through production, with a strong focus on reliability, performance, automated testing, and mentoring engineers. 
 
 Personal Summary
 I am 42 years old indian male who moved to Europe in 2016 and since then have travelled more than 14 countries and 35 cities
 I consider myself naive in this world where people are very smart
 Recenty I lost my father which changed a lot of things in me
+I have struggled a lot in my life to be at a stage where I am 
 
 My Next Job
 I am looking for a remote friendly job who is only worried about my skills and the work I do for them 
