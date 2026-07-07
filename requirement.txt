@@ -11,3 +11,4 @@ safetensors
 sentencepiece 
 protobuf
 google-genai
+streamlit
