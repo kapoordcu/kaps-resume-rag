@@ -1,8 +1,11 @@
 import os
 import requests
 import numpy as np
-from dotenv import load_dotenv
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ModuleNotFoundError:
+    pass
 
 JINA_API_KEY = os.getenv("JINA_API_KEY")
 

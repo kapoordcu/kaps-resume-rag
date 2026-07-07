@@ -1,14 +1,6 @@
+streamlit
+python-dotenv
 requests
 numpy
-python-dotenv
-sentence-transformers
-torch
-numpy
 faiss-cpu
-transformers 
-accelerate 
-safetensors 
-sentencepiece 
-protobuf
 google-genai
-streamlit
