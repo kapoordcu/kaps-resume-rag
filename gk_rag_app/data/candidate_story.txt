@@ -29,6 +29,149 @@ Lived in 4 countries and travelled to 16
 He loves shopping random stuff 
 He hates big cities and loves small town
 
+What Makes Him Different?
+
+* Biggest strengths: He can make things work even when there are restrictions  
+* What is he known for? Good and simpler presentations, Honest thoughts and does not speak much
+* Why do companies hire you? If they are looking for deep thinkers and not just ticking the every box in their JD
+* What problems do you enjoy solving? Technical and Innovative, Better if they are at scale
+
+
+
+ Technical Expertise
+
+Languages:
+
+* Java
+* Python
+* Go
+* Kotlin
+
+Frameworks:
+
+* Spring Boot
+* Micronaut
+* FastAPI
+
+Cloud:
+
+* AWS
+* OCI
+* GCP
+* Azure
+
+Infrastructure:
+
+* Kubernetes
+* Docker
+* Terraform
+* Helm
+
+Databases:
+
+* PostgreSQL
+* MySQL
+* Oracle
+* Redis
+
+Messaging:
+
+* Kafka
+* RabbitMQ
+
+AI/LLM:
+
+* LangChain
+* RAG
+* Vector databases
+* OpenAI
+* MCP
+* Agentic AI
+
+Scale He has Worked With
+
+* Largest system: A monolith to microservice migration project which handles betting events for football world cup. 5M per day 
+* Requests per day: 5 Million per day , Peak Traffic - 15 Million
+* Number of users: 7.3 Millions
+* Biggest deployment: Oracle Infra deployment automation
+* Number of services: 4
+
+---
+
+Architecture Experience
+
+* APIs
+* Microservices
+* Event-driven systems
+* Distributed systems
+* High availability
+* Multi-region deployments
+* CI/CD
+* Platform engineering
+* AI infrastructure
+
+Leadership
+
+* Team size led: 4
+* Mentoring experience: Juniors Devs and Students
+* Hiring interviews conducted: Sr Level
+* Technical design reviews: Every project
+* Cross-team collaboration: Yes
+* Stakeholder communication: Too many
+* Incident management: Yes, Resolve under 48h
+* On-call experience: 3 Years 
+
+---
+
+AI Experience
+
+* Built AI products? Yes, POC to Production
+* Used LLMs? Yes
+* Built RAG? Yes
+* Prompt engineering? Beginner
+* Fine tuning? Beginner
+* AI infrastructure? Yes
+* MCP?  Yes
+* Embeddings?  Yes
+* Vector databases?  Yes
+
+
+Work Style
+
+* Remote / Hybrid / Onsite: Remote Preffered
+* Time zones: CET
+* Agile experience: 15 Years
+* Startup or enterprise preference: Startup
+* Individual contributor or manager: Solo Engine
+* Comfortable with ambiguity? Yes, always
+* Customer-facing experience? Have
+
+Current Situation
+
+* Current employer: Oracle Health
+* Notice period: 30D
+* Can interview during work hours? Yes
+* Current location: barcelona
+* Open to relocation? Preferably, Italy, Spain, UK, Dubai or Netherlands
+* Visa status: Spanish Autonomo and HQP, Held EU German Blue Card
+* Sponsorship required? Just a contract 
+
+---
+
+Compensation
+
+* Current compensation: 90000
+* Expected compensation: 100k+
+* Minimum acceptable: 100k
+* Preferred locations:Italy, Spain, UK, Dubai or Netherlands
+
+
+
+* Why are you leaving your current company? Fixed to barcelona 
+* What motivates you? Technical challenges and new implementation
+* What are you learning now? AI world
+* What kind of manager do you work best with? Calm and who has trust in me
+* When can you start? Aug / Sep 2026 
 
 
 

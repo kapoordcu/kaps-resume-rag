@@ -28,66 +28,66 @@ st.markdown(
         }
 
         .main .block-container {
-            max-width: 1100px;
-            padding-top: 2.5rem;
-            padding-bottom: 3rem;
+            max-width: 900px;
+            padding-top: 1.25rem;
+            padding-bottom: 2rem;
         }
 
         .hero {
             background: linear-gradient(135deg, #ffffff 0%, #eef6f8 55%, #fff6ea 100%);
             border: 1px solid #e5e7eb;
             border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 18px 50px rgba(17, 24, 39, 0.08);
+            padding: 1.1rem 1.25rem;
+            box-shadow: 0 10px 28px rgba(17, 24, 39, 0.07);
         }
 
         .eyebrow {
             color: #0f766e;
-            font-size: 0.82rem;
+            font-size: 0.72rem;
             font-weight: 700;
             letter-spacing: 0.08em;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
             text-transform: uppercase;
         }
 
         .hero h1 {
             color: #111827;
-            font-size: clamp(2rem, 5vw, 4rem);
+            font-size: clamp(1.6rem, 4vw, 2.6rem);
             line-height: 1;
-            margin: 0 0 0.9rem;
+            margin: 0 0 0.55rem;
         }
 
         .hero p {
             color: #4b5563;
-            font-size: 1.05rem;
-            line-height: 1.65;
+            font-size: 0.95rem;
+            line-height: 1.4;
             max-width: 720px;
             margin: 0;
         }
 
         .metric-row {
             display: grid;
-            gap: 0.8rem;
+            gap: 0.55rem;
             grid-template-columns: repeat(3, minmax(0, 1fr));
-            margin-top: 1.4rem;
+            margin-top: 0.8rem;
         }
 
         .metric {
             background: rgba(255, 255, 255, 0.72);
             border: 1px solid #e5e7eb;
             border-radius: 8px;
-            padding: 0.9rem;
+            padding: 0.6rem 0.7rem;
         }
 
         .metric strong {
             color: #111827;
             display: block;
-            font-size: 1.15rem;
+            font-size: 0.98rem;
         }
 
         .metric span {
             color: #6b7280;
-            font-size: 0.82rem;
+            font-size: 0.76rem;
         }
 
         .section-title {
@@ -126,7 +126,7 @@ st.markdown(
 
         @media (max-width: 760px) {
             .hero {
-                padding: 1.35rem;
+                padding: 1rem;
             }
 
             .metric-row {
@@ -149,7 +149,7 @@ st.markdown(
         </p>
         <div class="metric-row">
             <div class="metric"><strong>15+ years</strong><span>Software engineering experience</span></div>
-            <div class="metric"><strong>Java / Kafka / Cloud</strong><span>Production system expertise</span></div>
+            <div class="metric"><strong>Java / Springboot / Kafka / Cloud / Agentic Development</strong><span>Production system expertise</span></div>
             <div class="metric"><strong>Remote friendly</strong><span>Preferred next role</span></div>
         </div>
     </section>
@@ -172,6 +172,7 @@ with left_col:
         placeholder="Example: What kind of backend roles is Gaurav looking for?",
         label_visibility="collapsed",
     )
+    submitted = st.button("Submit", type="primary", use_container_width=True)
 
 with right_col:
     st.markdown('<p class="section-title">Profile</p>', unsafe_allow_html=True)
@@ -181,7 +182,7 @@ with right_col:
     )
     st.link_button("Open LinkedIn", LINKEDIN_URL, use_container_width=True)
 
-if query:
+if submitted and query.strip():
     st.write("")
     with st.status("Calculating response...", expanded=True) as status:
         st.write("Loading resume knowledge base")
