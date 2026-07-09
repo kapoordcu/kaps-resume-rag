@@ -9,16 +9,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-RUN apt-get update \
-    && apt-get install --no-install-recommends -y build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-COPY requirement.txt .
-RUN pip install --upgrade pip \
-    && pip install -r requirement.txt
-
-COPY gk_rag_app ./gk_rag_app
+COPY . /app
+RUN pip install --no-cache-dir -r requirement.txt
 
 EXPOSE 8501
 
-CMD ["streamlit", "run", "gk_rag_app/app.py"]
+CMD ["streamlit", "run", "gk_rag_app/app.py", "--server-port=8501"]
