@@ -174,5 +174,234 @@ Compensation
 * When can you start? Aug / Sep 2026 
 
 
+Below are generic STAR answers
+
+---
+
+# 1. Teamwork & Conflict
+
+**Question:** Tell me about a time you had a conflict with a teammate. How did you handle it?
+
+### Situation
+
+We were preparing for an important customer demonstration where the primary objective was to keep the environment stable with minimal changes. At the same time, a teammate wanted to include a newly developed feature that was still being finalized.
+
+### Task
+
+As the engineer responsible for supporting the environment, I needed to ensure the demo remained stable while respecting my teammate's desire to showcase their work.
+
+### Action
+
+I noticed the new changes were causing repeated build failures because of infrastructure conflicts.
+
+Instead of debating the issue in team discussions, I scheduled a one-on-one conversation to understand my teammate's perspective.
+
+I acknowledged the value of the feature and their enthusiasm, then explained the risks introducing unstable changes could have on the customer experience.
+
+Together, we evaluated the trade-offs and agreed that delivering a stable demo was the higher priority, while planning a separate opportunity to demonstrate the new feature later.
+
+### Result
+
+The demo proceeded without further issues, the customer had a positive experience, and our team established clearer guidelines on balancing innovation with production stability.
+
+### Reflection
+
+I learned that resolving conflicts isn't about proving who's right—it's about aligning everyone around shared goals and finding solutions that benefit both the team and the customer.
+
+---
+
+# 2. Working Through Ambiguity
+
+**Question:** Tell me about a time you worked with unclear requirements.
+
+### Situation
+
+I worked on a project where requirements evolved rapidly. Product discussions were happening across different time zones, documentation changed frequently, and there wasn't a finalized design.
+
+### Task
+
+Our team needed to continue making progress without building the wrong solution.
+
+### Action
+
+Rather than waiting for complete clarity, I broke the project into smaller, independent components.
+
+For each component, we built lightweight proof-of-concepts to validate technical feasibility early.
+
+I documented assumptions, open questions, and design decisions, then shared them asynchronously with stakeholders to receive targeted feedback.
+
+Instead of trying to design everything upfront, we iteratively refined the solution as requirements became clearer.
+
+### Result
+
+We maintained steady development progress, reduced rework, identified technical constraints early, and entered implementation with several validated building blocks.
+
+### Reflection
+
+This experience taught me that in ambiguous situations, creating structure through experimentation and continuous feedback is far more effective than waiting for perfect requirements.
+
+---
+
+# 3. Failure & Learning
+
+**Question:** Tell me about a time you failed.
+
+### Situation
+
+I joined an ongoing customer project with very little onboarding time. Documentation was incomplete, requirements were unclear, and the delivery timeline was aggressive.
+
+### Task
+
+My goal was to quickly contribute and deliver the requested functionality.
+
+### Action
+
+I relied on existing documentation and stakeholder discussions to begin development.
+
+As the project progressed, I realized some customer expectations required capabilities that weren't supported by the existing platform and would require significant customization.
+
+Looking back, I should have paused earlier to validate technical feasibility and align expectations before committing to implementation.
+
+### Result
+
+Although we delivered working software, it didn't fully meet the customer's expectations, which impacted overall project satisfaction.
+
+### Reflection
+
+Since then, I've become much more proactive about validating assumptions, identifying technical gaps early, and communicating risks before development begins.
+
+---
+
+# 4. Leadership Without Authority
+
+**Question:** Tell me about a time you influenced others without formal authority.
+
+### Situation
+
+While working on a data processing platform, I noticed our existing approach wasn't efficient for handling large datasets.
+
+### Task
+
+Although improving the implementation wasn't part of my assigned work, I wanted to help the team adopt a more scalable solution.
+
+### Action
+
+I researched alternative approaches, built a prototype, and benchmarked it against our existing implementation.
+
+Rather than simply recommending the change, I demonstrated measurable improvements in performance, memory usage, and maintainability.
+
+I also incorporated feedback from teammates to ensure the solution integrated well with our existing architecture.
+
+### Result
+
+The team adopted the new approach, improving performance and resource efficiency while influencing future design decisions.
+
+### Reflection
+
+I learned that influence comes from credibility, collaboration, and evidence—not from having authority.
+
+---
+
+# 5. Problem Solving
+
+**Question:** Tell me about a time you solved a problem creatively.
+
+### Situation
+
+A service couldn't be deployed through our standard infrastructure because of platform limitations, resulting in a largely manual deployment process.
+
+### Task
+
+My goal was to make deployments reliable without requiring major infrastructure changes.
+
+### Action
+
+Instead of trying to modify the infrastructure, I redesigned the deployment workflow.
+
+I containerized the application, packaged all required dependencies with the build, and automated environment setup through scripts.
+
+### Result
+
+The deployment process became fully repeatable, eliminated manual steps, reduced setup time, and significantly improved developer productivity.
+
+### Reflection
+
+This reinforced that sometimes the best solution is changing the workflow rather than fighting existing constraints.
+
+---
+
+# 6. Why This Company?
+
+**Question:** Why do you want to work here?
+
+I'm interested in your company because of the technical challenges you're solving and the opportunity to build systems that have meaningful impact.
+
+Throughout my career, I've worked on distributed systems, backend platforms, cloud infrastructure, and large-scale applications where scalability, reliability, and performance were critical. I enjoy solving complex engineering problems while building solutions that are simple, maintainable, and reliable.
+
+I'm also motivated by environments where engineers have ownership, collaborate across teams, and continuously improve both the product and the engineering practices.
+
+At this stage in my career, I'm looking for a place where I can contribute my experience while continuing to learn from strong engineers, solve challenging technical problems, and help build products that customers rely on every day.
+
+---
+
+# 7. Biggest Achievement
+
+**Question:** What's your biggest achievement?
+
+### Situation
+
+I was responsible for helping modernize a legacy backend platform that had become difficult to scale and maintain.
+
+### Task
+
+The objective was to improve system reliability, reduce outages, and support increasing customer traffic without disrupting existing users.
+
+### Action
+
+I helped design and implement a migration from a monolithic architecture to microservices.
+
+This included decomposing services, designing APIs, improving deployment pipelines, strengthening observability, and optimizing performance under peak load.
+
+### Result
+
+The platform became significantly more scalable and reliable, application crashes and timeout issues during peak traffic were greatly reduced, deployments became safer, and teams were able to deliver features independently.
+
+### Reflection
+
+This project reinforced how important thoughtful architecture, incremental delivery, and cross-team collaboration are when modernizing large production systems.
+
+---
+
+# 8. Handling Pressure
+
+**Question:** Tell me about a time you worked under pressure.
+
+### Situation
+
+A critical production issue occurred shortly before an important customer milestone.
+
+### Task
+
+I needed to restore service quickly while minimizing customer impact.
+
+### Action
+
+I coordinated with multiple teams, prioritized stabilizing the system before implementing permanent fixes, communicated regular updates to stakeholders, and documented findings throughout the incident.
+
+After service was restored, I led a root cause analysis and implemented monitoring and safeguards to prevent similar failures.
+
+### Result
+
+The issue was resolved quickly, customer impact was minimized, and the preventative improvements significantly reduced the likelihood of recurrence.
+
+### Reflection
+
+High-pressure situations reinforce the importance of staying calm, communicating clearly, and solving the highest-impact problems first.
+
+---
+
+These stories are suitable for interviews at most large technology companies (Microsoft, Amazon, Meta, Uber, Datadog, Stripe, Booking.com, Adyen, Atlassian, Snowflake, etc.) because they emphasize transferable engineering competencies rather than company-specific details.
+
+
 
 
